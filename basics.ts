@@ -7,3 +7,8 @@ let userAge = 38; // 'type inference' ts can infer type based off an initial val
 // boolean
 userName = "Max";
 // userAge = "34"; <-- cannot be assigned to type 'number'
+
+// assigning types to function parameters
+function add(a: number, b: number) {
+  return a + b;
+}
